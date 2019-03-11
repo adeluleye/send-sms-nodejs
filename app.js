@@ -18,6 +18,11 @@ app.use(express.static(__dirname + '/public'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
+// create a route
+app.get('/', (req, res) => {
+    res.render('index');
+})
+
 // Define port
 const port = 3000;
 
