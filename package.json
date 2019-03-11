@@ -1,0 +1,18 @@
+{
+  "name": "sms-app",
+  "version": "1.0.0",
+  "description": "sending sms from node js app using nexmo",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "nexmo": "^2.4.1",
+    "socket.io": "^2.2.0"
+  }
+}
